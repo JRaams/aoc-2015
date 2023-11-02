@@ -6,17 +6,14 @@ function solve(): number {
 
   for (const combination of cartesianProduct(weapons, armors, rings, rings)) {
     const [weapon, armor, ring1, ring2] = combination;
-    if (!weapon || ring1?.id === ring2?.id) continue;
+    if (ring1.id === ring2.id) continue;
 
-    const setCost = weapon.cost + (armor?.cost ?? 0) +
-      (ring1?.cost ?? 0) + (ring2?.cost ?? 0);
+    const setCost = weapon.cost + armor.cost + ring1.cost + ring2.cost;
 
     const player: Stats = {
       hp: 100,
-      damage: weapon.damage + (ring1?.damage ?? 0) +
-        (ring2?.damage ?? 0),
-      armor: (armor?.armor ?? 0) + (ring1?.armor ?? 0) +
-        (ring2?.armor ?? 0),
+      damage: weapon.damage + ring1.damage + ring2.damage,
+      armor: armor.armor + ring1.armor + ring2.armor,
     };
 
     const boss: Stats = {

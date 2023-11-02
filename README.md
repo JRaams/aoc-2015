@@ -12,7 +12,7 @@ Solutions using TypeScript \w Deno
 | [08](https://adventofcode.com/2015/day/8)  | [09](https://adventofcode.com/2015/day/9)  | [10](https://adventofcode.com/2015/day/10) | [11](https://adventofcode.com/2015/day/11) | [12](https://adventofcode.com/2015/day/12) | [13](https://adventofcode.com/2015/day/13) | [14](https://adventofcode.com/2015/day/14) |
 |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |
 | [15](https://adventofcode.com/2015/day/15) | [16](https://adventofcode.com/2015/day/16) | [17](https://adventofcode.com/2015/day/17) | [18](https://adventofcode.com/2015/day/18) | [19](https://adventofcode.com/2015/day/19) | [20](https://adventofcode.com/2015/day/20) | [21](https://adventofcode.com/2015/day/21) |
-|                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    🌑️🌑️                    |
+|                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |
 | [22](https://adventofcode.com/2015/day/22) | [23](https://adventofcode.com/2015/day/23) | [24](https://adventofcode.com/2015/day/24) | [25](https://adventofcode.com/2015/day/25) |                                            |                                            |                                            |
 |                    🌑️🌑️                    |                    🌑️🌑️                    |                    🌑️🌑️                    |                    🌑️🌑️                    |                                            |                                            |                                            |
 
@@ -74,7 +74,8 @@ Debugging in Visual Studio Code
 19. \* (De)constructing molecules with various different parts. Multiple string
     replacements that can each have multiple replacement options.
 20. More maths, budget Riemann sequence
-21.
+21. RPG Simulator, checking effectiveness of combinations of items using a
+    fitness function
 22.
 23.
 24.

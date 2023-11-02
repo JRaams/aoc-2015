@@ -31,3 +31,18 @@ export function* orderedCombinations<T>(input: T[]): Generator<T[]> {
     yield* combinationsN(input, i);
   }
 }
+
+export function* cartesianProduct<T>(
+  head: T[],
+  ...tail: T[][]
+): Generator<T[]> {
+  const remainder = tail.length
+    ? cartesianProduct(tail[0], ...tail.slice(1))
+    : [[]];
+
+  for (const r of remainder) {
+    for (const h of head) {
+      yield [h, ...r];
+    }
+  }
+}

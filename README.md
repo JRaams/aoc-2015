@@ -6,7 +6,7 @@ Solutions using TypeScript \w Deno
 
 ### 0. Progress
 
-![Finished calendar](/assets/finished_calendar.webp)
+![Finished calendar](/assets/calendar.png)
 
 | [01](https://adventofcode.com/2015/day/1)  | [02](https://adventofcode.com/2015/day/2)  | [03](https://adventofcode.com/2015/day/3)  | [04](https://adventofcode.com/2015/day/4)  | [05](https://adventofcode.com/2015/day/5)  | [06](https://adventofcode.com/2015/day/6)  | [07](https://adventofcode.com/2015/day/7)  |
 | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: |

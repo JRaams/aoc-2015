@@ -8,8 +8,6 @@ function solve(): number {
     const [weapon, armor, ring1, ring2] = combination;
     if (ring1.id === ring2.id) continue;
 
-    const setCost = weapon.cost + armor.cost + ring1.cost + ring2.cost;
-
     const player: Stats = {
       hp: 100,
       damage: weapon.damage + ring1.damage + ring2.damage,
@@ -22,8 +20,9 @@ function solve(): number {
       armor: 2,
     };
 
-    const doesPlayerWin = doesPlayerWinBattle(player, boss);
-    if (doesPlayerWin) {
+    const playerWins = doesPlayerWinBattle(player, boss);
+    if (playerWins) {
+      const setCost = weapon.cost + armor.cost + ring1.cost + ring2.cost;
       lowestCost = Math.min(lowestCost, setCost);
     }
   }

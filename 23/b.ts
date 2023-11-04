@@ -12,4 +12,4 @@ async function solve(): Promise<number> {
   return runProgram(registers, input).b;
 }
 
-console.info(solve());
+console.info(await solve());

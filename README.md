@@ -14,7 +14,7 @@ Solutions using TypeScript \w Deno
 | [15](https://adventofcode.com/2015/day/15) | [16](https://adventofcode.com/2015/day/16) | [17](https://adventofcode.com/2015/day/17) | [18](https://adventofcode.com/2015/day/18) | [19](https://adventofcode.com/2015/day/19) | [20](https://adventofcode.com/2015/day/20) | [21](https://adventofcode.com/2015/day/21) |
 |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |                    💫️💫️                    |
 | [22](https://adventofcode.com/2015/day/22) | [23](https://adventofcode.com/2015/day/23) | [24](https://adventofcode.com/2015/day/24) | [25](https://adventofcode.com/2015/day/25) |                                            |                                            |                                            |
-|                    💫️💫️                    |                    🌑️🌑️                    |                    🌑️🌑️                    |                    🌑️🌑️                    |                                            |                                            |                                            |
+|                    💫️💫️                    |                    💫️💫️                    |                    🌑️🌑️                    |                    🌑️🌑️                    |                                            |                                            |                                            |
 
 ### 1. Requirements
 
@@ -70,6 +70,6 @@ Debugging in Visual Studio Code
 20. More maths, budget Riemann sequence
 21. RPG Simulator, checking effectiveness of combinations of items using a fitness function
 22. Bounded Depth First Search to find optimal solution / path with unknown endpoint or amount of nodes.
-23.
+23. Making a simple 'computer' that has two static registers and a set of 6 instructions.
 24.
 25.
